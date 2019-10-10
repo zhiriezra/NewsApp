@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title padding-vertical>
+      Health News App
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<ion-list no-lines>
+	  <ion-list-header color="list-header">
+	    News Papers
+	  </ion-list-header>
+	  <button ion-item (click)="openTheNation()">
+	    The Nation
+	  </button> 
+
+	  <button ion-item (click)="openTheLeadership()">
+	    Leadership
+	  </button> 
+
+	  <button ion-item (click)="openTribune()">
+	    Nigerian Tribune
+	  </button>
+
+	  <button ion-item (click)="openDailyTimes()">
+	    Daily Times
+	  </button>
+
+	  <button ion-item (click)="openNationalMirror()">
+	    National Mirror
+	  </button>
+	</ion-list>
+
+</ion-content>
